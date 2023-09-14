@@ -1,0 +1,65 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    box-sizing: inherit;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+} 
+
+.header{
+    width: 970px;
+    margin: 0px 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    background-color:green;
+}
+
+.header-title{
+    font-size: 1rem;
+    margin: 20px 0px;
+    color: orange;
+}
+
+.nav{
+    text-align: center;
+    background-color: rgb(141, 202, 141d);
+    padding: 20px;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+.nav-list-item{
+    list-style-type: none;
+    margin-right: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-list-item-link{
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid bkacj;
+    background-color: rgb(155, 218, 155);
+    text-decoration: none;
+}
+
+.nav-sublist{
+    /* position: absolute;讓下拉式導覽頁固定位置，並不影響底下的內容 */
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
